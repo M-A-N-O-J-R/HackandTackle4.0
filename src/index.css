@@ -1,0 +1,1263 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+  background-color: #000000!important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ul-list{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  list-style:none;
+  padding:10px;
+  padding-top: 10px;
+}
+.ul-list2{
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+  list-style:none;
+  padding:10px;
+  padding-top: 10px;
+  flex-direction: column;
+}
+.logo
+{
+  padding:10px;
+  margin-bottom: 10px;
+
+}
+#ssn-logo
+{
+
+  margin:0px 10px;
+  
+}
+#ieee-logo
+{
+
+  margin-left:20px;
+
+}
+@media (max-width:340px)
+{
+  
+  #ieee-logo
+{
+
+  margin-left:10px;
+
+}
+
+}
+@media(max-width:950px){
+  .ul-list
+{
+
+  display:none;
+}
+
+.menu-bars
+{
+  order:2;
+  
+}
+.fa-bars{
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+}
+@media (min-width:950px)
+{
+
+  .menu-bars
+{
+  display: none;
+  
+}
+
+}
+
+.intro-class
+{
+
+  padding-top: 20px;
+  text-align: center;
+  overflow: hidden;
+  background-image: none;
+ 
+}
+.intro-text
+{
+  background-image: none;
+  
+  font-size: 19px;
+  font-weight: 700;
+  font-family: 'Yeseva One', cursive;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.2;
+  background-color: none;
+}
+
+.clg-add{
+  font-size: 16px;
+}
+#event-img{
+  margin-right: 50px;
+}
+.info-class
+{
+  font-size: 16px;
+  margin-bottom: 25px;
+  margin-top: 75px;
+}
+.info-class p
+{
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-family: 'Roboto Mono', monospace;
+
+}
+#dpt{
+  font-size: 16px;
+  color: #f79303;
+  background-image: none;
+}
+.row{
+  margin:100px 0px;
+  background-color: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content:space-evenly;
+
+  align-items: center;
+  /* border:2px solid black; */
+  color:white;
+  font-size: 16px;
+  
+}
+.dept-info{
+  
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+  max-width: 1000px;
+  margin:0 auto;
+  margin-top: 70px;
+  margin-bottom: 150px;
+  padding:10px;
+}
+.gal-info{
+  
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+  max-width: 1200px;
+  margin:0 auto;
+  margin-top: 75px;
+  margin-bottom: 150px;
+  padding:7px;
+  background-color: #fff;
+}
+.map-info{
+  
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+  max-width: 1300px;
+  margin:0 auto;
+  margin-top:-300px;
+  margin-bottom: 150px;
+  padding:7px;
+  background-color: rgb(70, 56, 56);
+}
+.img-cont
+{
+  height: 235px;
+background-position: center;
+border-radius: 8px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.img-cont2
+{
+  height: 225px;
+background-position: center;
+border-radius: 8px;
+background-size: cover;
+background-repeat: no-repeat;
+margin-bottom: 30px;
+margin-right: 7px;
+border: solid 3px rgb(39, 39, 39);
+
+}
+.img-cont3
+{
+  height: 130px;
+  width: 130px;
+background-position: center;
+border-radius: 50%;
+background-size: cover;
+background-repeat: no-repeat;
+margin-bottom: 30px;
+margin-right: 8px;
+border: solid 2px #f79303;
+background-color: rgb(31, 29, 29);
+margin-top:23px;
+}
+.img-cont4
+{
+  height: 550px;
+  width: 500px;
+background-position: center;
+border-radius: 8px;
+background-size: cover;
+background-repeat: no-repeat;
+margin-bottom: 30px;
+margin-right: 8px;
+
+
+margin-top:23px;
+}
+@media(max-width:450px)
+{
+  .map-info{
+
+    background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+    max-width: 430px;
+    margin:0 auto;
+    margin-top:-300px;
+    margin-bottom: 150px;
+    padding:7px;
+    background-color: rgb(70, 56, 56);
+  }
+  .img-cont4
+  {
+    height: 280px;
+    width: 150px;
+    background-position: center;
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    margin-right: 8px;
+
+
+    margin-top:23px;
+  }
+}
+.img-map-1
+{
+  background-image: url("./img/map_lum.png");
+}
+.img-t-1
+{
+  background-image: url("./img/jai.jfif");
+}
+.img-t-2
+{
+  background-image: url("./img/manoj.jpeg");
+}
+.img-cont-1
+{
+  
+background-image: url("./img/1.jpg");
+}
+.img-cont-2
+{
+background-image: url("./img/grp.JPG");
+order:2;
+}
+
+.img-cont-3
+{
+background-image: url("./img/zero.jpg");
+}
+
+.img-cont-4
+{
+background-image: url("./img/ieeep.jpg");
+order: 2;
+}
+
+/* // import img1 from '../img/HnT2.jpg'
+// import img2 from '../img/HnT 3.jpg'
+// import img3 from '../img/HnT 4.jpg'
+// import img5 from '../img/HnT 6.jpg'
+// import img6 from '../img/HnT 7.jpg'
+// import img7 from '../img/HnT 8.jpg'
+// import img8 from '../img/HnT 9.jpg'
+// import img9 from '../img/HnT 10.jpg'
+// import img10 from '../img/HnT 11.jpg' */
+.img-gal-1
+{
+  background-image: url("./img/HnT 6.jpg");
+}
+.img-gal-2
+{
+  background-image: url("./img/HnT 3.jpg");
+}
+.img-gal-3
+{
+  background-image: url("./img/HnT 4.jpg");
+}
+.img-gal-4
+{
+  background-image: url("./img/HnT2.jpg");
+}
+.img-gal-5
+{
+  background-image: url("./img/HnT 8.jpg");
+}
+.img-gal-6
+{
+  background-image: url("./img/HnT 9.jpg");
+}
+.item-text
+{
+  font-family: 'Jost', sans-serif;
+ padding:20px;
+ font-weight: 600;
+ 
+}
+.dpt-title{
+  font-size: 22px;
+  color:#f79303;
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif; */
+  font-weight: 600;
+  
+}
+
+.item-text-2,.item-text-4
+{
+  order: 1;
+}
+
+
+@media(max-width:440px)
+{
+ 
+  .clg-add{
+    font-size: 12px;
+  }
+  .item-text
+{
+  font-size:13px;
+}
+.dpt-title{
+  font-size: 17px;
+  font-family: 'Playfair Display', serif;
+}
+.row{
+  margin:80px 0px;
+  padding:2px;
+  
+}
+.img-cont
+{
+  height: 250px;
+
+}
+
+}
+.row-item
+{
+  background-color: #000000;
+  border:none;
+  border-bottom: 1px solid black;
+  border-radius:0px;
+  margin:60px 0px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  padding-bottom: 15px;
+  font-size: 17px;
+}
+.info-title{
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color:#f79303;
+  font-family: 'Playfair Display', serif;
+}
+@media(max-width:450px){
+  .row-item
+{
+  margin-top:40px;
+  font-size: 13px;
+}
+.info-title{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+}
+}
+.o-cont{
+  max-width:1000px ;
+  margin:0px auto;
+}
+
+.hover1{
+  color:red;
+}
+.track-img
+{
+ background-image: url(./img/Agriculture.png);
+ min-height: 210px;
+ background-position: center;
+ background-size: contain;
+ background-repeat: no-repeat;
+
+}
+.track-img-1
+{
+  background-image: url(./img/Agriculture.png);
+}
+.track-img-2
+{
+  background-image: url(./img/women\ safety.png);
+}
+.track-img-3
+{
+  background-image: url(./img/Environment.png);
+}
+.track-img-4
+{
+  background-image: url(./img/HealthCare.png);
+}
+.track-img-5
+{
+  background-image: url(./img/social\ welfare.png);
+}
+.track-img-6
+{
+  background-image: url(./img/CyberSecurity.png);
+}
+.row-track
+{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border:none;
+  background-color:  #000000;
+  margin-top:75px;
+  margin-bottom: 150px;
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+}
+a.link
+{
+  color: red;
+}
+.col-track{
+  background-color:rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding:4px;
+  height: 270px;
+  margin-right: 12px;
+  margin-bottom: 26px;
+  border-radius:8px;
+}
+
+.track{
+  max-width: 1000px;
+  margin:22px auto;
+  padding:4px;
+  text-align: center;
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+}
+.agri-intro
+{
+
+ margin-top:50px;
+ text-align: center;
+ color:#f79303;
+ 
+}
+.clg-intro{
+  font-size: 32px;
+  background-color: none;
+}
+.clg-intro2{
+  font-size: 22px;
+}
+.img-class{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  max-width: 300px;
+  margin:0 auto;
+  margin-top:30px;
+}
+.title-des{
+  margin-top:45px;
+  font-size:22px;
+  font-family: 'Playfair Display', serif;
+  color:white;
+}
+.agri-text{
+  max-width: 950px;
+  margin:-10px auto;
+  font-size:290px;
+  font-family: jost;
+  font-weight: 600;
+  padding:5px;
+  margin-bottom:200px;
+}
+.row-agri
+{
+  background-color: #000000;
+  border:none;
+}
+.agri-list
+{
+  margin-top:30px;
+  margin-bottom:30px;
+  font-size:15px;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.7em;
+}
+.gal-img{
+
+  
+}
+/* .gallery
+{
+  background-color:rgb(50,49,49) ;
+  padding:10px 10px;
+  margin-top:50px;
+}
+.gallery-title{
+  margin-top:100px
+}
+@media (min-width:768px)
+{
+  .gallery,.gallery-title{
+   display:none;
+  }
+
+  
+
+} */
+
+.timeline{
+  background-color: rgb(0, 0, 0);
+  margin-top: -20px ;
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+  margin-top: 120px;
+}
+.time-title{
+  color:#f79303;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size:21px ;
+  padding-top:22px;
+  margin-bottom: 40px;
+
+}
+table{
+  background-color:rgb(248, 246, 246);
+  width: 100%;
+  font-size: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(29, 28, 28),
+             -5px 2px 5px rgb(29, 28, 28);
+  
+} 
+th {
+  background-color: #1d1c1c;
+  color: white;
+  padding: 5px;
+  
+}
+td{
+  padding: 10px;
+  background-color:#e4dede;
+  color:black;  
+}
+.t-row
+{
+  background-color: rgb(0, 0, 0);
+  
+  border:none;
+  
+}
+.info-track{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+
+.regis{
+
+  margin:40px 0px;
+  background-color: #eeeeee;
+  padding:20px;
+  padding-bottom:60px;
+  color:rgb(0, 0, 0);
+}
+.text-regi{
+  font-size: 22px;
+  margin:15px;
+}
+@media (max-width:450px){
+  .text-regi{
+    font-size: 16px;
+  }
+}
+.row-c{
+  background-color:rgb(0, 0, 0);
+  border:none;
+ 
+  margin:40px 0px;
+  color:#f79303;
+  
+}
+.col-cola{
+  height: 330px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+
+  
+}
+.row-cola
+{
+ margin-top: 10px;
+ margin-bottom: 100px;
+ border:none;
+ background-color: rgb(2, 2, 2);
+ display: flex;
+ align-items:center;
+ justify-content:center;
+ background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+}
+
+.map{
+  position: relative;
+}
+.gmap{
+  position:"absolute";
+  margin-left: 15%;
+}
+.colu-1,.colu-2,.colu-3,.colu-4{
+  
+  font-size:14px;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.4em;
+}
+.track-logo{
+
+  
+}
+@media(max-width:780px){
+  .colu-1,.colu-2,.colu-3,.colu-4{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .team-list{
+    font-size:16px;
+  }
+}
+@media(max-width:480px){
+  .intro-class{
+    overflow: hidden;
+  }
+  #event-img{
+    width: 145px;
+    margin-right: 10px;
+  }
+  #event-logo{
+    width: 183px;
+  
+  }
+  #event-logo.evnt-lo{
+    width: 255px;
+    
+  
+  }
+  .track-logo{
+    width:180px;
+    padding:35px;
+  }
+  .intro-text
+{
+  
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  
+}
+#dpt{
+  font-size: 13px;
+  background-image:none;
+}
+.agri-text
+{
+  font-size:.9em;
+}
+.colu-1{
+  font-size: 9px;
+  font-weight: bold;
+}
+.colu-2{
+  font-size: 9px;
+  font-weight: bold;
+}
+.colu-3{
+  font-size: 9px;
+  font-weight: bold;
+}
+.colu-4{
+  font-size: 9px;
+  font-weight: bold;
+}
+
+}
+.faq-container
+{
+
+  max-width: 1000px;
+  margin:0px auto;
+ background-color: #000000;
+ background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+ margin-bottom:220px;
+ 
+}
+.row-faq
+{
+  background-color: rgb(0, 0, 0);
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top:30px;
+  padding-bottom:15px;
+  margin-top: 105px;
+  border:none;
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+}
+.col-faq
+{
+  background-color:#eceaea;
+  padding:11px;
+  margin-right: 7px;
+  margin-bottom: 26px;
+  height: 210px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: jost;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: bold;
+  color:#000000;
+}
+#faq-title{
+  font-family: 'Playfair Display', serif;
+  color:#f79303;
+}
+.contact{
+  background-color:rgb(0, 0, 0);
+  font-family: jost;
+  color: #e9e9e9;
+  position: relative;
+  top:0px;
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+
+}
+
+.row1
+{
+  margin:0px 0px;
+  color:black;
+  /* background-color: #eceaea; */
+  background-color: #F3F2ED;
+  background-color: rgba(2, 2, 2, 0.795);
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  align-items:center;
+  justify-content: flex-end;
+  border:none;
+  padding-top:30px;
+  border-radius: 0px;
+}
+.c-div
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-div
+{
+  display:flex;
+  height:50px;
+  justify-content:center;
+  align-items:center;
+  
+ 
+}
+.icon-cont
+{
+  background-color: rgb(255, 247, 247);
+  margin-right: 9px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:50px;
+  height:30px;
+  width: 30px;
+  
+}
+.icon-div
+{
+  font-size:20px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  
+}
+.row2
+{
+  margin:0px 0px;
+  background-color: #F3F2ED;
+  background-color: rgba(2, 2, 2, 0.795);
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+  padding-top:12px;
+  font-size: 7px;
+  font-family: 'Playfair Display', serif;
+  font-weight:300;
+  color:#f79303;
+  border:none;
+  border-radius: 0px;
+}
+@media(min-width:1020px){
+  .row2{
+    
+    font-size: 16px;
+    letter-spacing:1.2px;
+  }
+
+}
+@media(min-width:1120px){
+  .row2{
+    
+    font-size: 18px;
+    letter-spacing:1.5px;
+  }
+
+}
+@media(min-width:1220px){
+  .row2{
+    
+    font-size: 18px;
+    letter-spacing:1.6px;
+  }
+
+}
+.add-div{
+  display:flex;
+  /* background-color:red; */
+  justify-content:flex-start;
+  align-items:flex-start;
+  font-size: 10px;
+  flex-direction: column;
+  margin-left: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+.number-div{
+  color:black;
+  font-size:10px;
+}
+.event-div{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #eeeeee;
+  font-family:jost;
+  font-weight: 700;
+  font-size: 20px;
+  height: 70px;
+}
+.info-div2
+{
+  text-align: center;
+  color:#161616;
+  margin-top:25px;
+  transition:all 0.5s ease 0s;
+  background-color: #dadada;
+}
+.f-div{
+  background-color: #eeeeee;
+  width: 100%;
+  margin:0;
+}
+#insta,#mail,#face,#what{
+  color:rgb(49, 48, 48);
+  padding:7px;
+  padding-bottom:14px;
+  transition:all 0.5s ease;
+}
+#insta2,#linkedin,#git{
+  color:rgb(49, 48, 48);
+  transition:all 0.5s ease;
+  margin-right: 15px;
+}
+#linkedin:hover{
+  color:rgb(10,102,194)
+}
+#git:hover{
+  color:rgb(134,48,165);
+}
+#insta:hover{
+  color:rgb(179,57,148);
+}
+#insta2:hover{
+  color:rgb(179,57,148);
+}
+#face:hover{
+  color:rgb(24,119,242);
+}
+#what:hover{
+  color:rgb(0,191,165)
+}
+#mail:hover{
+  color:rgb(196, 58, 81);
+}
+#create{
+  text-decoration: none;
+  color: rgb(245,218,85) ;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 22px;
+}
+#ssn-img,#ieee-img{
+
+  margin-right: 10px;
+}
+#hack
+{
+  margin-left: 30px;
+}
+@media (max-width:650px)
+{
+  .add-div,.number-div{
+    font-size:14px;
+    
+  }
+  .icon-cont
+{
+  height:22px;
+  width: 22px;
+  
+}
+#insta,#mail,#face,#what{
+  color:rgb(49, 48, 48);
+  padding:9px;
+  padding-bottom:12px;
+  transition:all 0.5s ease;
+}
+  .icon-div{
+    font-size: 17px;;
+  }
+  #ssn-img,#ieee-img{
+    width:60px;
+    margin-right: 10px;
+  }
+  .event-div{
+    font-size: 15px;
+  }
+  .info-div
+{
+  font-size: 15px;
+}
+#hack{
+  width:50px;
+}
+}
+@media(min-width:768px){
+  .add-div,.number-div{
+    font-size: 1.1em;
+  }
+  #ssn-img,#ieee-img{
+    width:95px;
+    margin-right: 10px;
+  }
+}
+.intro-logo-div{
+
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.hero {
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  background-image: no;
+
+}
+
+.hero::before {    
+    content: "";
+    background-image: url('./img/44.jpeg');
+    background-size: cover;
+    position: absolute;
+    background-position: center center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* opacity: 0.35; */
+    background-color: #3f3f3d;
+    background-blend-mode:multiply;
+}
+.overlay,#event-img{
+  position: relative; 
+  font-family: 'Playfair Display', serif;
+  color:rgb(255, 255, 255);
+  line-height: .9;
+  text-align: center;
+  padding: 3px;
+  background-image: none;
+  font-size: 30px;
+  font-weight:500;
+  
+}
+#event-logo{
+  position: relative;
+  text-align: center;
+  background-image: none;
+  
+}
+.hover1{
+  color:orange;
+}
+.col-item{
+  
+  text-align: justify;
+}
+#clg{
+  line-height:1.2;
+  margin-top:40px;
+}
+.present{
+  position: relative; 
+  color:rgb(255, 255, 255);
+  background-image:none;
+  margin-bottom:60px;
+}
+.info-row{
+  margin:30px 0px;
+  
+}
+.prize-win{
+  margin-top:50px;
+}
+.jus-cla{
+  text-align: justify;
+  font-size:15px;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.7em;
+}
+.s-cont{
+  max-width: 1000px;
+  margin:0px auto;
+  margin-top: -50px;
+  padding:20px;
+}
+.row-spon{
+  
+  background-color:rgb(0, 0, 0);
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  padding:4px;
+  margin:52px 0px;
+  border:none;
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
+}
+.spon{
+   background-color: rgb(255, 255, 255); 
+   border-radius: 10px;
+  height: 65px;
+  margin-right: 11px;
+  margin-bottom: 26px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+.regibtn
+{  
+  margin-top:35px;
+  background-color:#f79303;
+  transition:all 0.7s ease;
+  color:rgb(255, 255, 255);
+  font-size:18px;
+  width:169px;
+  height:32px;
+  font-weight:bold;
+  padding-top:7.5px;
+  font-family: 'Roboto Mono', monospace;
+  line-height: .9em;
+}
+.regibtn:hover
+{  
+  color:#f79303;
+  background-color:rgb(22, 21, 21);
+
+}
+@media(max-width:450px){
+  .spon-img{
+    width:100px;
+  }
+  .y-img{
+    width: 160px;
+  }
+}
+@media (max-width:450px)
+{
+  .info-class p
+{
+  font-size: 14px;
+  margin-bottom: 20px;
+
+}
+  table{
+   
+    font-size: 4px;
+    padding:0px;
+  }
+  #clg{
+    margin-top:10px;
+    font-size: 20px;
+  }
+  .clg-intro{
+    font-size: 23px;
+  }
+  .clg-intro2{
+    font-size: 18px;
+  }
+  .agri-list
+{
+  margin-top:40px;
+  margin-bottom: 40px;
+  font-size:15px;
+
+}
+.jus-cla{
+  text-align: justify;
+  font-size :15px;
+  
+}
+.regibtn
+{  
+  margin-top:22px;
+  font-size:14px;
+  width:90px;
+  height:27px;
+}
+
+}
+#prize-m
+{
+background-color:rgb(0, 0, 0);
+color:rgb(0, 255, 157);
+margin:0px auto;
+}
+.roll-text{
+  position: absolute;
+  left: 0;
+  font-size:14px;
+  top: 8px;
+  color:rgb(209, 84, 84);
+  font-weight:bold;
+}
+.team-list{
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-right: 1px solid #000;
+}
+.nav-item-2{
+  text-decoration: none;
+  color:#dddbd8;
+  font-size:16px;
+  padding:10px;
+}
+.nav-item-2:hover{
+  color:rgb(110, 110, 110);
+}
+.dev-name{
+  
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(2, 2, 2, 0.795);
+  color:white;
+  font-size: 18px;
+}
+.team
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 30%;
+  font-size:17px;
+
+}
+.team-row{
+  
+  margin-bottom:200px;
+}
+.team-m{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left:5px;
+  justify-content: space-evenly;
+}
+.team-link
+{
+  display: flex;
+  justify-content:flex-start;
+  font-size:27px;
+  align-items: center;
+}
+p{
+  font-size:14px;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.7em;
+}
