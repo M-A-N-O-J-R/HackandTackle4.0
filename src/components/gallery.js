@@ -15,8 +15,8 @@ import React, { Component } from 'react'
             <div  id="about">
             <div className="gal-info">
              <div className="container-fluid">
+             <p className="info-title" id="faq-title">GALLERY</p>
                 <div className="row"  data-aos="fade-left" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
-                <p className="info-title" id="faq-title">GALLERY</p>
                   <div className="col-md-5 col-xs-12  img-cont2 img-gal-1">   
                   </div>
                   <div className="col-md-5 col-xs-12 img-cont2 img-gal-2">   

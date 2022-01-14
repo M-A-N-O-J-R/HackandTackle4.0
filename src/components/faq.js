@@ -63,9 +63,9 @@ import React, { Component } from 'react'
            <div id="faq" style={{backgroundColor:"black"}}> 
             <div className="faq-container">
             <div className="container-fluid">
-            
+            <p className="info-title" id="faq-title">FAQs</p>
                 <div className="row row-faq">
-                <p className="info-title" id="faq-title">FAQs</p>
+                
                 {list}
                 </div>
             </div>

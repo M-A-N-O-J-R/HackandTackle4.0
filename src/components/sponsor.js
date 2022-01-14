@@ -9,8 +9,9 @@ export class sponsor extends PureComponent {
         return (
             <div className="spons" id ="sponsor">
                 <div className="s-cont">
-                <div className="row row-spon">
                 <p className="info-title" id="faq-title">SPONSORS</p>
+                <div className="row row-spon">
+                
                     <div className="col-5 col-sm-3 col-md-3 col-lg-2 spon-1 spon" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
                          <img src={img1} className="spon-img" alt="ssn-logo" width='100px'></img>
                     </div>

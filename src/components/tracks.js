@@ -17,8 +17,9 @@ export class tracks extends React.PureComponent {
             <div className="track" id="track" >
                
                 <div className="container-fluid">
+                <p className="info-title info-track" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">TRACKS</p>
                   <div className="row row-track">
-                  <p className="info-title info-track" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">TRACKS</p>
+                  
                      <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
                          <div className="track-img-1 track-img">
                             
