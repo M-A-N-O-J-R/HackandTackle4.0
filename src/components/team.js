@@ -20,7 +20,7 @@ import * as BsIcons from "react-icons/bs";
                 <div className="row team-row"  data-aos="fade-left" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
                   <div className=" col-md-5 team-m">
                     <div className="img-cont3  img-t-1"></div> 
-                    <div clasName="team-info">
+                    <div clasName="team-info" style={{width:"50%"}}>
                         <p style={{fontSize:"18px"}}>Jai Kishore R</p>
                         <p>Design & Development</p>
                         <div className="team-link">
@@ -35,7 +35,7 @@ import * as BsIcons from "react-icons/bs";
 
                   <div className=" col-md-5 team-m">
                     <div className="img-cont3 img-t-2"></div> 
-                    <div clasName="team-info">
+                    <div clasName="team-info" style={{width:"50%"}}>
                         <p style={{fontSize:"18px"}}>Manoj R</p>
                         <p>Development</p>
                         <div className="team-link">

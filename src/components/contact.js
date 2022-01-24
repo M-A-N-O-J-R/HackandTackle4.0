@@ -8,7 +8,7 @@ import * as FaIcons from "react-icons/fa";
 export class contact extends React.PureComponent{
     render() {
         return (
-           <div id="contact"  style={{backgroundColor:"rgb(50,50,50)"}}>
+           <div id="contact" >
                <div className="container-fluid">
                    <div className="row row1" >
                        <div className="col-lg-3 col-md-3 col-sm-3 logo-div col-6" >

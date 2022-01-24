@@ -20,11 +20,7 @@ export class sponsor extends PureComponent {
                     </div>
                     <div className="col-5 col-sm-3 col-md-3 col-lg-2 spon-1 spon" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
                     <img src={img3} className="spon-img" alt="ssn-logo" width='120px'></img>
-                    </div> 
-                
-                    <div className="col-5 col-sm-3 col-md-3 col-lg-2 spon-1 spon" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
-                    <img src={img5} className="spon-img" alt="ssn-logo" width='120px'></img>
-                    </div>                          
+                    </div>                    
                 </div>
                 </div>
             </div>

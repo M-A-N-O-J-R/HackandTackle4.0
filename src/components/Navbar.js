@@ -36,11 +36,12 @@ function Navbar() {
             <li><a href="/#track" className="nav-item-">Tracks</a></li>
             <li><a href="/#timeline" className="nav-item-">Timeline</a></li>
             <li><a href="/#sponsor" className="nav-item-">Sponsors</a></li>
+            <li><a href="/#gallery" className="nav-item-">Gallery</a></li>
             <li><a href="/#faq" className="nav-item-">FAQs</a></li>
             {/* <Link to="/team" className="nav-item-">Teams</Link> */}
             {/* <li><a href="/#faq" style={style}>FAQs</a></li> */}
             
-            <li><a href="#contact" className="nav-item-">ContactUs</a></li>
+            <li><a href="#contact" className="nav-item-">Contact Us</a></li>
 
         </ul>
 
