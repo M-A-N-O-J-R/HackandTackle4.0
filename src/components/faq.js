@@ -53,7 +53,7 @@ import React, { Component } from 'react'
         let list=<div>EMPTY</div>
         list=this.state.details.map(detail=>{
            return(
-            <div className="col-xs-3 col-sm-3 col-md-4 col-lg-4 col-faq" key={detail.id} data-aos="flip-right" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
+            <div className="col-xs-3 col-sm-3 col-md-4 col-lg-11 col-faq" key={detail.id} data-aos="flip-right" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
             <p style={{fontSize:"15px"}}>{detail.question}</p>
             <p style={{textAlign:detail.alignment}}>{detail.answer}</p>
             </div>
