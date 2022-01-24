@@ -80,7 +80,7 @@ export class contact extends React.PureComponent{
                   </div>
                   <div  >
                         <p style={{fontSize:"16px"}}>Dr. Ashwinth J<br></br><span style={{fontSize:"15px",color:"#f79303"}}>
-                        +91-7010047085</span></p>
+                        +91-9500524191</span></p>
                   </div>
                 </div>
                    <div className="dev-name">

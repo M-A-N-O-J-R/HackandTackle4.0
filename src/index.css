@@ -459,7 +459,7 @@ order: 2;
 .track-img
 {
  background-image: url(./img/Agriculture.png);
- min-height: 210px;
+ min-height: 160px;
  background-position: center;
  background-size: contain;
  background-repeat: no-repeat;

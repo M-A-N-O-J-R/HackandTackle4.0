@@ -20,12 +20,12 @@ export class tracks extends React.PureComponent {
                 <p className="info-title info-track" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">TRACKS</p>
                   <div className="row row-track">
                   
-                     <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
-                         <div className="track-img-1 track-img">
+                  <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true" >
+                         <div className="track-img-3 track-img">
                             
                          </div>
                         <div className="link"> 
-                         <Link to="/agri" style={style}>More Info</Link>
+                         <Link to="/environment" style={style}>More Info</Link>
                         </div>
                      </div>
                      <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true" >
@@ -36,14 +36,7 @@ export class tracks extends React.PureComponent {
                          <a href="/safety" style={style}>More Info</a>
                         </div>
                      </div>
-                     <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true" >
-                         <div className="track-img-3 track-img">
-                            
-                         </div>
-                        <div className="link"> 
-                         <Link to="/environment" style={style}>More Info</Link>
-                        </div>
-                     </div>
+                     
                      <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
                          <div className="track-img-4 track-img">
                             
@@ -90,6 +83,14 @@ export class tracks extends React.PureComponent {
                          </div>
                         <div className="link"> 
                          <Link to="/health" style={style}>More Info</Link>
+                        </div>
+                     </div>
+                     <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
+                         <div className="track-img-1 track-img">
+                            
+                         </div>
+                        <div className="link"> 
+                         <Link to="/agri" style={style}>More Info</Link>
                         </div>
                      </div>
                   </div>
