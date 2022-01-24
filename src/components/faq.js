@@ -31,18 +31,18 @@ import React, { Component } from 'react'
                     answer:"Mail us to : hackathon.ssnieee@gmail.com",
                     alignment:"none"
                 },
-                {
-                    id:5,
-                    question:"Do you have more questions?",
-                    answer:"Then, the best proposals will be chosen for phase 2. In addition, they can network with industry delegates.and learn more about implementing ideas in real life. ",
-                    alignment:"justify"
-                },
-                {
-                    id:6,
-                    question:"Do you have more questions?",
-                    answer:"The ideas and the solutions can be based on any of the aforementioned tracks. The plausible solutions will be judged based on the scope, novelty, feasibility, technology, utility and social relevance.",
-                    alignment:"justify"
-                }
+                // {
+                //     id:5,
+                //     question:"Do you have more questions?",
+                //     answer:"Then, the best proposals will be chosen for phase 2. In addition, they can network with industry delegates.and learn more about implementing ideas in real life. ",
+                //     alignment:"justify"
+                // },
+                // {
+                //     id:6,
+                //     question:"Do you have more questions?",
+                //     answer:"The ideas and the solutions can be based on any of the aforementioned tracks. The plausible solutions will be judged based on the scope, novelty, feasibility, technology, utility and social relevance.",
+                //     alignment:"justify"
+                // }
             ]
              
         }
@@ -53,7 +53,7 @@ import React, { Component } from 'react'
         let list=<div>EMPTY</div>
         list=this.state.details.map(detail=>{
            return(
-            <div className="col-xs-3 col-sm-3 col-md-4 col-lg-11 col-faq" key={detail.id} data-aos="flip-right" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
+            <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11 col-faq" key={detail.id} data-aos="flip-right" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
             <p style={{fontSize:"15px"}}>{detail.question}</p>
             <p style={{textAlign:detail.alignment}}>{detail.answer}</p>
             </div>
@@ -63,7 +63,7 @@ import React, { Component } from 'react'
            <div id="faq" style={{backgroundColor:"black"}}> 
             <div className="faq-container">
             <div className="container-fluid">
-            <p className="info-title" id="faq-title">FAQs</p>
+            <p className="info-title" style={{marginBottom:"-40px",marginTop:"100px"}} id="faq-title">FAQs</p>
                 <div className="row row-faq">
                 
                 {list}

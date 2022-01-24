@@ -24,8 +24,8 @@ import * as BsIcons from "react-icons/bs";
                         <p style={{fontSize:"18px"}}>Jai Kishore R</p>
                         <p>Design & Development</p>
                         <div className="team-link">
-                        <a href="https://www.instagram.com/ieee_ssn/" id="insta2"><AiIcons.AiOutlineInstagram /></a>
-                        <a href="https://www.instagram.com/ieee_ssn/" id="linkedin"><AiIcons.AiFillLinkedin/></a>
+                        <a href="https://www.instagram.com/penchill_bro/" id="insta2"><AiIcons.AiOutlineInstagram /></a>
+                        <a href="https://www.linkedin.com/in/jaikishore-r-b72a6821a" id="linkedin"><AiIcons.AiFillLinkedin/></a>
                         </div>
                     </div>  
 
@@ -39,8 +39,8 @@ import * as BsIcons from "react-icons/bs";
                         <p style={{fontSize:"18px"}}>Manoj R</p>
                         <p>Development</p>
                         <div className="team-link">
-                        <a href="https://www.instagram.com/ieee_ssn/" id="linkedin"><AiIcons.AiFillLinkedin/></a>
-                        <a href="https://www.instagram.com/ieee_ssn/" id="git"><AiIcons.AiFillGithub /></a>
+                        <a href="https://www.linkedin.com/in/manoj-ravichandran-12b5841b2/" id="linkedin"><AiIcons.AiFillLinkedin/></a>
+                        <a href="https://github.com/M-A-N-O-J-R" id="git"><AiIcons.AiFillGithub /></a>
                         </div>
                     </div>  
 

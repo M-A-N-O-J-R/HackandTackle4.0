@@ -19,7 +19,7 @@ class collabrate extends React.PureComponent{
                     </div> 
                     <div className="row row-cola "  data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
                         <div className="col-xs-12 col-lg-10 col-cola" >
-                        <iframe className="yv" width="600" height="315" src="https://www.youtube.com/embed/vNqRQFQ5ZW0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                        <iframe className="yv" width="600" height="300" src="https://www.youtube.com/embed/vNqRQFQ5ZW0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                         </div>
                         <div className="col-xs-12 col-lg-6 col-cola-img" >
                             

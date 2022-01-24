@@ -1,7 +1,7 @@
 import React, { Component,Link } from 'react'
 import logo from '../img/ssn1.png'
 import logo1 from '../img/ieeel.png'
-import logo2 from '../img/logo.png'
+import logo2 from '../img/logom.png'
 import * as AiIcons from 'react-icons/ai';
 import * as FiIcons from "react-icons/fi";
 import * as FaIcons from "react-icons/fa";
@@ -12,8 +12,8 @@ export class contact extends React.PureComponent{
                <div className="container-fluid">
                    <div className="row row1" >
                        <div className="col-lg-3 col-md-3 col-sm-3 logo-div col-6" >
-                         <img src={logo} alt="logo" id="ssn-img"  width="1005px"/>
-                         <img src={logo2} alt="logo" id="hack"  width="90px"/>
+                         <img src={logo} alt="logo" id="ssn-img"  width="100px"/>
+                         <img src={logo2} alt="logo" id="hack"  width="110px"/>
                          {/* <img src={logo1} alt="logo" id="ieee-img"  width="100px"/> */}
                        </div>
                    </div>
