@@ -193,7 +193,7 @@ code {
 }
 .img-cont
 {
-  height: 235px;
+  height: 250px;
 background-position: center;
 border-radius: 8px;
 background-size: cover;
@@ -285,7 +285,7 @@ background-image: url("./img/1.jpg");
 }
 .img-cont-2
 {
-background-image: url("./img/grp.JPG");
+background-image: url("./img/ALF_0005.JPG");
 order:2;
 }
 
@@ -311,27 +311,27 @@ order: 2;
 // import img10 from '../img/HnT 11.jpg' */
 .img-gal-1
 {
-  background-image: url("./img/HnT 6.jpg");
+  background-image: url("./img/HnT 4.jpg");
 }
 .img-gal-2
 {
-  background-image: url("./img/HnT 3.jpg");
+  background-image: url("./img/IMG_7174.JPG");
 }
 .img-gal-3
 {
-  background-image: url("./img/HnT 4.jpg");
+  background-image: url("./img/IMG_7242.JPG");
 }
 .img-gal-4
 {
-  background-image: url("./img/HnT2.jpg");
+  background-image: url("./img/IMG_7248.JPG");
 }
 .img-gal-5
 {
-  background-image: url("./img/HnT 8.jpg");
+  background-image: url("./img/IMG_7089.JPG");
 }
 .img-gal-6
 {
-  background-image: url("./img/HnT 9.jpg");
+  background-image: url("./img/IMG_7163.JPG");
 }
 .item-text
 {
@@ -377,7 +377,7 @@ order: 2;
 }
 .img-cont
 {
-  height: 250px;
+  height: 300px;
 
 }
 
@@ -452,6 +452,18 @@ order: 2;
   background-image: url(./img/social\ welfare.png);
 }
 .track-img-6
+{
+  background-image: url(./img/CyberSecurity.png);
+}
+.track-img-7
+{
+  background-image: url(./img/HealthCare.png);
+}
+.track-img-8
+{
+  background-image: url(./img/social\ welfare.png);
+}
+.track-img-9
 {
   background-image: url(./img/CyberSecurity.png);
 }

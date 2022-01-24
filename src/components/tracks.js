@@ -68,6 +68,30 @@ export class tracks extends React.PureComponent {
                          <Link to="/health" style={style}>More Info</Link>
                         </div>
                      </div>
+                     <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
+                         <div className="track-img-7 track-img">
+                            
+                         </div>
+                        <div className="link"> 
+                         <Link to="/health" style={style}>More Info</Link>
+                        </div>
+                     </div>
+                     <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
+                         <div className="track-img-8 track-img">
+                            
+                         </div>
+                        <div className="link"> 
+                         <Link to="/health" style={style}>More Info</Link>
+                        </div>
+                     </div>
+                     <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
+                         <div className="track-img-9 track-img">
+                            
+                         </div>
+                        <div className="link"> 
+                         <Link to="/health" style={style}>More Info</Link>
+                        </div>
+                     </div>
                   </div>
                   {/* <p style={{color:"red",}}>NOTE: If your solution doesn't fit in the above track, fear not. You can apply with the open track expressing any suitable idea or concept that solves a real - world problem.</p> */}
                 </div>
