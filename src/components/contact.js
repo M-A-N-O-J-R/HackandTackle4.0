@@ -19,7 +19,7 @@ export class contact extends React.PureComponent{
                    </div>
                    <div className="row row2" >
                        <div className="col-lg-4 col-md-4 col-sm-4  col-xs-4 col-6 add-div" >
-                         <p>SSN College of Engineering<br></br>
+                         <p style={{color:"#f79303"}}>SSN College of Engineering<br></br>
                             Old Mahabalipuram Road<br></br>
                          Kalavakkam - 603 110<br></br>
                          Tamil Nadu, India</p>

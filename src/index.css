@@ -798,7 +798,7 @@ td{
   flex-direction: column;
   font-size: 12px;
   font-weight: bold;
-  color:#c7c4c4;
+  color:#dfdbdb;
   border: 1px solid #2a2b2b;
   -webkit-box-shadow: inset 0 0 15px #303030;
   -moz-box-shadow: inset 0 0 15px #2a2c2b;
@@ -918,6 +918,7 @@ td{
   flex-direction: column;
   margin-left: 20px;
   font-family: 'Roboto Mono', monospace;
+  color:#f79303;
 }
 .number-div{
   color:black;
@@ -1295,4 +1296,5 @@ p{
   font-size:14px;
   font-family: 'Roboto Mono', monospace;
   line-height: 1.7em;
+  color:#ece9e9;;
 }
