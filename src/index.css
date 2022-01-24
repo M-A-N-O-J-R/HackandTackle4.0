@@ -244,6 +244,10 @@ margin-top:23px;
 }
 @media(max-width:450px)
 {
+  .img-cont
+  {
+    height: 200px;
+  }
   .map-info{
 
     background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg");
@@ -256,7 +260,7 @@ margin-top:23px;
   }
   .img-cont4
   {
-    height: 240px;
+    height: 200px;
     width: 150px;
     background-position: center;
     border-radius: 8px;
@@ -283,7 +287,7 @@ margin-top:23px;
   }
   .img-cont4
   {
-    height: 198px;
+    height: 170px;
     width: 150px;
     background-position: center;
     border-radius: 8px;
@@ -407,7 +411,7 @@ order: 2;
 }
 .img-cont
 {
-  height: 300px;
+  height: 200px;
 
 }
 
