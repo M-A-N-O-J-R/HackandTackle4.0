@@ -9,20 +9,20 @@ import React, { Component } from 'react'
                 {
                   id:1,
                   question:"How will the event be conducted?",
-                  answer:"Hack and Tackle 3.0 will take place in two phases. In phase 1, the participants will upload the solution of the problem statement along with the registration form. ",
+                  answer:"Hack and Tackle 4.0 will take place in two phases. In phase 1, the participants will upload the solution of the problem statement along with the registration form. The ideas and the solutions can be based on any of the aforementioned tracks. The plausible solutions will be judged based on the scope, novelty, feasibility, technology, utility and social relevance. Then, the best proposals will be chosen for phase 2.",
                   alignment:"justify"
                 },
                 {
                     id:2,
                     question:"What is the team size requirement for registration?",
-                    answer:"A maximum of 3 students can participate.",
+                    answer:"A maximum of 5 students can participate.",
                     alignment:"none"
 
                 },
                 {
                     id:3,
                     question:"How is this event beneficial to students?",
-                    answer:"Hack and Tackle 3.0 will help the students to develop critical thinking and team playing. It will also help students to look into real world problems ",
+                    answer:"Hack and Tackle 4.0 will help the students to develop critical thinking and team playing. It will also help students to look into real world problems and learn more about implementing ideas in real life. In addition, they can network with industry delegates.",
                     alignment:"justify"
                 },
                 {
@@ -55,7 +55,7 @@ import React, { Component } from 'react'
            return(
             <div className="col-xs-11 col-sm-11 col-md-11 col-lg-11 col-faq" key={detail.id} data-aos="flip-right" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
             <p style={{fontSize:"15px"}}>{detail.question}</p>
-            <p style={{textAlign:detail.alignment}}>{detail.answer}</p>
+            <p style={{textAlign:detail.alignment,fontSize:"13px"}}>{detail.answer}</p>
             </div>
            )
         })

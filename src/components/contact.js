@@ -58,6 +58,31 @@ export class contact extends React.PureComponent{
                             </div> 
                        </div>
                    </div>
+
+                   <div className="row" id="number">
+                  
+                    
+                    <div >
+                        <p style={{fontSize:"16px"}}>Dr. T. Sree Sharmila<br></br><span style={{fontSize:"15px",color:"#f79303"}}>
+                        +91-9940582630</span></p>
+                  </div>
+                  <div  >
+                        <p style={{fontSize:"16px"}}>Dr. V. Thanikachalam<br></br><span style={{fontSize:"15px",color:"#f79303"}}>
+                        +91-9962453600</span></p>
+                  </div>
+                  <div  >
+                        <p style={{fontSize:"16px"}}>Ms. J. K. Josephine Julina<br></br><span style={{fontSize:"15px",color:"#f79303"}}>
+                        +91-9962580503</span></p>
+                  </div>
+                  <div >
+                        <p style={{fontSize:"16px"}}>Dr. J. Sofia Jennifer<br></br><span style={{fontSize:"15px",color:"#f79303"}}>
+                        +91-7708733053</span></p>
+                  </div>
+                  <div  >
+                        <p style={{fontSize:"16px"}}>Dr. Ashwinth J<br></br><span style={{fontSize:"15px",color:"#f79303"}}>
+                        +91-7010047085</span></p>
+                  </div>
+                </div>
                    <div className="dev-name">
                        
                             

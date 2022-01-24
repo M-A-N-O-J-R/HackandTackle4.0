@@ -12,7 +12,7 @@ import React, { Component } from 'react'
     
     render() {
         return (
-            <div  id="about">
+            <div  id="gallery">
             <div className="gal-info">
              <div className="container-fluid">
              <p className="info-title" id="faq-title">GALLERY</p>

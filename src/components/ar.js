@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import logo from '../img/logo.png'
-import logo1 from '../img/Agriculture.png'
+import logo1 from '../img/arvr2.png'
 
 
 export class agri extends  React.PureComponent{
@@ -25,7 +25,7 @@ export class agri extends  React.PureComponent{
                    </div>
                    <div className=" title-des">
                      <p>💻 Hack and Tackle 4.0</p>
-                     <p>🌾Agriculture</p>
+                     <p>AR/VR</p>
                    </div> 
               </div> 
               </div>
@@ -34,20 +34,23 @@ export class agri extends  React.PureComponent{
                     <div className="row row-agri">
                          <div className="col-xs-12">
                              <div className="agri-main jus-cla" >
-                             Agriculture is the backbone of the Indian economy. Though it is the main source of livelihood for a majority of the Indian population, it still stands as a technologically backward sector. We are currently living in a world of technology which affects every aspect of our life. Technological advances coupled with new financial and environmental policies are the need of the hour. Boosting rural growth and agricultural productivity are the main goals here. Some of the major contributing factors for decline in healthy yield are given below:
+                             Augmented reality (AR) is an interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information. In virtual reality (VR), the users' perception of reality is completely based on virtual information. In augmented reality (AR) the user is provided with additional computer-generated information within the data collected from real life that enhances their perception of reality.
+                             </div>
+                             <div className="agri-main jus-cla" >
+                             Today, these cutting-edge technologies have gone far beyond gaming and entertainment and have been used as applications in education, ecommerce, healthcare and construction etc.
+                             </div>
+                             <div className="agri-main jus-cla" >
+                             The following challenges with augmented reality are negatively affecting the mainstream adoption of the technology:
                              </div>
                              <ul className="agri-list">
-                                 <li>Poor quality of soil</li>
-                                 <li>Usage of non-permissible fertilizers</li>
-                                 <li>Improper rainfall during cultivation of seasonal crops</li>
-                                 <li>Non-identification of diseased plants at an early stage</li>
-                                 <li>Inefficient training to farmers</li>
-                                 <li>Mismatch of demand and supply</li>
-                                 <li>Strategies used in transportation</li>
-                                 <li>Agriculture and Rural Development</li>
+                                 <li>Reduce the perceived cost of implementing the new technology</li>
+                                 <li>Security & Privacy Issues with Augmented Reality</li>
+                                 <li>Poor Quality of Content & Use Cases</li>
+                                 <li>Social Issues of Augmented Reality: Public Acceptance & Retention</li>
+                                 
                              </ul>
                              <div className="agri-body jus-cla">
-                             Can your idea maximize returns and lower risks in agriculture, or perhaps find a better balance between production and consumption?
+                             Can your idea act as a stand-alone creative application that creates reliable, high-resolution experiences for  global community?
                              </div>
                          </div>
                     </div>

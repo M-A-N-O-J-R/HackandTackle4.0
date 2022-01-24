@@ -19,7 +19,7 @@ export class agri extends React.PureComponent {
               <div data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
                    <div className="img-class">
                    <img src={logo} alt="logo" id="event-logo" width="180px"/>
-                       <img src={logo1} alt="logo" className="track-logo" width="110px" />
+                       <img src={logo1} alt="logo" className="track-logo" width="150px" />
                    </div>
                    <div className=" title-des">
                      <p>💻 Hack and Tackle 4.0</p>
@@ -32,7 +32,7 @@ export class agri extends React.PureComponent {
                     <div className="row row-agri">
                          <div className="col-xs-12">
                              <div className="agri-main jus-cla">
-                             Safety is a basic right that the women of today are being denied. Women's safety has become an increasingly alarming issue throughout the world. Removing the barriers of an unsafe environment allows women fulfil their potential as individuals and as contributors to work, communities and economies. Some of the most common crimes against women are given below:
+                             Safety is a basic right that the women of today are being denied. Women's safety has become an increasingly alarming issue throughout the world. Removing the barriers of an unsafe environment allows women fulfill their potential as individuals and as contributors to work, communities and economies. Some of the most common crimes against women are given below:
                              </div>
                              <ul className="agri-list">
                                  <li>Harassment at workplace</li>

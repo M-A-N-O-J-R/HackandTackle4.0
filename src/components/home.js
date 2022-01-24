@@ -15,6 +15,7 @@ import Team from './team'
 import Pw from './pw'
 import Img from './img'
 import Map from './map'
+
 AOS.init();
 
 // You can also pass an optional settings object

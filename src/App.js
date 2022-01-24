@@ -10,6 +10,7 @@ import Health from './components/health'
 import Social from './components/social'
 import Prize from './components/prize'
 import Register from './components/registration'
+import Ar from './components/ar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './components/contact'
 import 'font-awesome/css/font-awesome.min.css';
@@ -32,6 +33,7 @@ function App() {
           <Route path='/social' component={Social}/>
           <Route path='/team' component={Prize}/>
           <Route path='/Register' component={Register}/>
+          <Route path='/Ar' component={Ar}/>
           <Route render={() => <Redirect to="/" />} />
         </Switch>
         <Contact/>

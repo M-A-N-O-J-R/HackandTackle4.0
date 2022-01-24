@@ -19,10 +19,10 @@ export class agri extends React.PureComponent{
               <div data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
                    <div className="img-class">
                    <img src={logo} alt="logo" id="event-logo" width="180px"/>
-                       <img src={logo1} alt="logo" className="track-logo" width="110px" />
+                       <img src={logo1} alt="logo" className="track-logo" width="150px" />
                    </div>
                    <div className=" title-des">
-                     <p>💻 Hack and Tackle 3.0</p>
+                     <p>💻 Hack and Tackle 4.0</p>
                      <p>🌏Environment</p>
                    </div> 
               </div> 
@@ -32,8 +32,7 @@ export class agri extends React.PureComponent{
                     <div className="row row-agri">
                          <div className="col-xs-12">
                              <div className="agri-main jus-cla">
-                             Humanity is facing a crippling problem that has been destroying its home. The environment is collapsing due to global warming, pollution, climate changes, etc. We are responsible for the environment we live in. Now, more than ever, the advent of new technology has the potential to transform environmental protection. Our next course of action is to technologically transform the field of environment protection and conservation to ensure a sustainable environment for the future. Some of the major environmental concerns in India is grappling with today
-                             </div>
+                             Humanity is facing a crippling problem that has been destroying its home. The environment is collapsing due to global warming, pollution, climate changes, etc. We are responsible for the environment we live in. Now, more than ever, the advent of new technology has the potential to transform environmental protection. Our next course of action is to technologically transform the field of environment protection and conservation to ensure a sustainable environment for the future. Some of the major environmental concerns in India is grappling with today.</div>
                              <ul className="agri-list">
                                  <li>Air pollution is one of the worst scourges to have affected India</li>
                                  <li>Rapidly depleting levels of groundwater is one of the biggest threats to food security and livelihood in the country</li>
