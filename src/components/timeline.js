@@ -54,7 +54,7 @@ export class timeline extends React.PureComponent {
                                  <tfoot>
                                  <tr>
                                      <td className="colu-1">5</td>
-                                     <td className="colu-2">Hack and Tackle 3.0</td>
+                                     <td className="colu-2">Hack and Tackle 4.0</td>
                                      <td className="colu-3">10-MAR-2022</td>
                                      <td className="colu-4">11-MAR-2022</td>
                                  </tr>

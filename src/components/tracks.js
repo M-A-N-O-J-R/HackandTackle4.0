@@ -58,7 +58,7 @@ export class tracks extends React.PureComponent {
                             
                          </div>
                         <div className="link"> 
-                         <Link to="/health" style={style}>More Info</Link>
+                         <Link to="/Cyber" style={style}>More Info</Link>
                         </div>
                      </div>
                      <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
@@ -74,7 +74,7 @@ export class tracks extends React.PureComponent {
                             
                          </div>
                         <div className="link"> 
-                         <Link to="/health" style={style}>More Info</Link>
+                         <Link to="/Vision" style={style}>More Info</Link>
                         </div>
                      </div>
                      <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
@@ -82,7 +82,7 @@ export class tracks extends React.PureComponent {
                             
                          </div>
                         <div className="link"> 
-                         <Link to="/health" style={style}>More Info</Link>
+                         <Link to="/Covid" style={style}>More Info</Link>
                         </div>
                      </div>
                      <div className="col-xs-12  col-sm-5 col-md-5 col-track col-lg-3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
