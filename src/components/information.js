@@ -43,7 +43,7 @@ export class information extends React.PureComponent {
                             </p>
                             <br></br>
                            <div style={{display:"flex",justifyContent: "center",marginBottom:"25px"}}> 
-                            <a className="regibtn overlay" style={style}  href="https://forms.gle/j76wdgHcJ7CGhBr48">Register</a>
+                            <a className="regibtn overlay" style={style}  href="https://docs.google.com/forms/d/e/1FAIpQLSfFq2nW8ijYn3HFQXmqnqm222wPIyxCA1JkpWChTXBIOf5d6Q/viewform">Register</a>
                            </div> 
                         </div>
                     </div>

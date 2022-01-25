@@ -42,7 +42,7 @@ handleHover=(event)=>{
               <p className="overlay" >📅  10-11 MARCH, 2022</p>
               <p className="overlay" >🕗 08:00 AM - 08:00 PM </p>
            </div> 
-            <a className="regibtn overlay" style={style}  href="https://forms.gle/j76wdgHcJ7CGhBr48">Register</a>
+            <a className="regibtn overlay" style={style}  href="https://docs.google.com/forms/d/e/1FAIpQLSfFq2nW8ijYn3HFQXmqnqm222wPIyxCA1JkpWChTXBIOf5d6Q/viewform">Register</a>
            </div>
         </div>
      
