@@ -1,3 +1,5 @@
+## Hack & Tackle
+
 Hack & Tackle, is a 24-hour virtual hackathon and is an intra and inter-college event. It has two phases namely Ideation phase and 24-hour hackathon phase. The first edition Hack & Tackle 1.0 started in the year 2019 with a participation of nearly 150 students from various institutes. The second edition Hack & Tackle 2.0 in the year 2020 and Hack & Tackle 3.0 during 2021 witnessed participation of 112 and 133 students from different colleges.  Due to the prevailing condition of pandemic situation the fourth edition Hack & Tackle 4.0 is also planned online. Keeping up with the intention to offer an unhindered platform for students to develop realistic and intelligent solutions to problems prevalent in the society, the fourth edition of this magnificent event will be held during 10-11 March, 2022 in virtual mode.
 <br>
 <br>
