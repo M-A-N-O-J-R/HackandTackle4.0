@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useState,useEffect} from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route,Redirect } from 'react-router-dom';
@@ -20,11 +20,28 @@ import 'font-awesome/css/font-awesome.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
-
+import Lottie from "lottie-react";
+import infinityAnimation from "./img/data.json";
 
 function App() {
+
+  const [isLoading,setLoading]=useState(true);
+  
+  useEffect(() => {
+    
+    setLoading(false);
+  },[]);
+
+  const noData = 
+  <Lottie autoPlay
+   loop={true} animationData={infinityAnimation} 
+   style={{ height: 300, width: 300,position:'fixed',left:'35%',top:'30%'}}
+   />
+
   return (
     <>
+    {
+      !isLoading?
       <Router>
         <Navbar />
         <Switch>
@@ -43,7 +60,8 @@ function App() {
           <Route render={() => <Redirect to="/" />} />
         </Switch>
         <Contact/>
-      </Router>
+      </Router>:noData
+    } 
     </>
   );
 }

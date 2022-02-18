@@ -24,7 +24,7 @@ export class timeline extends React.PureComponent {
                                      <td className="colu-1">1</td>
                                      <td className="colu-2">Phase 1 Submission(Problem statement)</td>
                                      <td className="colu-3">24-JAN-2022</td>
-                                     <td className="colu-4">18-FEB-2022</td>
+                                     <td className="colu-4">21-FEB-2022</td>
                                  </tr>
                                  </tbody>
                                  <tbody>
@@ -32,7 +32,7 @@ export class timeline extends React.PureComponent {
                                      <td className="colu-1">2</td>
                                      <td className="colu-2">Phase 1 Screening</td>
                                      <td className="colu-3">19-FEB-2022</td>
-                                     <td className="colu-4">23-FEB-2022</td>
+                                     <td className="colu-4">25-FEB-2022</td>
                                  </tr>
                                  </tbody>
                                  <tbody>
@@ -40,7 +40,7 @@ export class timeline extends React.PureComponent {
                                      <td className="colu-1">3</td>
                                      <td className="colu-2">Declaration of Shortlisted Candidates for Phase 2</td>
                                      <td className="colu-3">24-FEB-2022</td>
-                                     <td className="colu-4">25-FEB-2022</td>
+                                     <td className="colu-4">27-FEB-2022</td>
                                  </tr>
                                  </tbody>
                                  <tbody>
@@ -61,6 +61,10 @@ export class timeline extends React.PureComponent {
                                  </tfoot>
                              </table>
                          </div>
+                         <div style={{color:'#f79303',marginTop:'55px'}}>
+                            *submission deadline has been extended
+                         </div>
+                         
                     </div>
                   </div>
               </div>

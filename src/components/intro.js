@@ -44,6 +44,7 @@ handleHover=(event)=>{
            </div> 
             <a className="regibtn overlay" style={style}  href="https://docs.google.com/forms/d/e/1FAIpQLSfFq2nW8ijYn3HFQXmqnqm222wPIyxCA1JkpWChTXBIOf5d6Q/viewform">Register</a>
            </div>
+           
         </div>
      
 

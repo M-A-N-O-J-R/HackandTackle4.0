@@ -8,6 +8,8 @@ export class department extends React.PureComponent{
     render() {
         return (
            <div  id="about">
+           <div className='curve'></div>
+           <div className="spacer layer1"></div>
             <div className="dept-info">
              <div className="container-fluid">
                 <div className="row"  data-aos="fade-left" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
