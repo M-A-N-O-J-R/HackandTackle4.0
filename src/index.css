@@ -1118,9 +1118,9 @@ td{
   color:rgb(255, 255, 255);
   line-height: .9;
   text-align: center;
-  padding: 3px;
+  /* padding: 3px; */
   background-image: none;
-  font-size: 37px;
+  font-size: 29px;
   font-weight:600;
   
 }

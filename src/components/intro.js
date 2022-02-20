@@ -31,7 +31,7 @@ handleHover=(event)=>{
             <p className="overlay" id="clg">SRI SIVASUBRAMANIYA NADAR COLLEGE OF ENGINEERING</p>
             <p id="dpt" className="overlay">DEPARTMENT OF INFORMATION TECHNOLOGY</p>
            </div>
-          <p   className="present">ORGANIZES</p>
+           <p  className="present">ORGANIZES</p>
           </div>
           <div data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="true">
           <div className="intro-logo-div">

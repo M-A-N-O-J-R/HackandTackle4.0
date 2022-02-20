@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 const style={
     color:"white",
     backgroundColor:"rgb(3, 3, 3,0.8)",
-    width:"120px",
-    height:"30px",
+    width:"100px",
+    height:"20px",
     borderRadius:"5px",
     display:"inline-block",
     textDecoration:"none",
