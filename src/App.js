@@ -21,7 +21,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import Lottie from "lottie-react";
-import infinityAnimation from "./img/data.json";
+import infinityAnimation from "./img/data9.json";
 
 function App() {
 
@@ -29,13 +29,16 @@ function App() {
   
   useEffect(() => {
     
-    setLoading(false);
-  },[]);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
 
+  }, []);
+    
   const noData = 
   <Lottie autoPlay
    loop={true} animationData={infinityAnimation} 
-   style={{ height: 300, width: 300,position:'fixed',left:'35%',top:'30%'}}
+   style={{ height: 100, width: 100,position:'fixed',left:'45%',top:'40%'}}
    />
 
   return (

@@ -1095,6 +1095,7 @@ td{
 .hero::before {    
     content: "";
     background-image: url('./img/44.jpeg');
+    /* background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/07/Aesthetic-Black-Wallpaper132048x1152.jpg"); */
     background-size: cover;
     position: absolute;
     background-position: center center;
@@ -1103,11 +1104,12 @@ td{
     bottom: 0px;
     left: 0px;
     /* opacity: 0.35; */
-    background-color: #3b3b3b;
+    /* background-color: #3b3b3b; */
     background-blend-mode:multiply;
     /* border-bottom-left-radius: 14%;
     border-bottom-right-radius: 14%; */
-    border-bottom: 30px solid rgba(8, 8, 8, 0.63);
+    background-color: #1b1b1bce;
+    border-bottom: 30px solid rgba(8, 8, 8, 0.795);
 }
 .overlay,#event-img{
   position: relative; 
